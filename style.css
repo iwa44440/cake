@@ -1,0 +1,119 @@
+@charset "utf-8";
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(253, 123, 255),white);
+  height: 100%;
+  color: rgb(132, 121, 3);
+}
+
+/* header */
+header{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+header h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 72px;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 1px;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+header li {
+  font-size: 32px;
+  padding:16px;
+  margin: 0 auto;
+  width: 22%;
+  height: 32px;
+  background-color:#fff0f5;/*背景色*/
+  border: dashed 2px #773d50;/*線*/
+  color:#ef71d0;/*文字色*/
+  font-family: 'Caveat', cursive;
+  border-radius: 16px;
+  
+}
+header img{
+  padding: 0 auto;
+  margin: 48px auto;
+  width: 80%;
+  height: 640px;
+  object-fit: cover;
+  border: inset 20px aquamarine;
+}
+/* menu */
+h2{
+  margin: auto;
+  text-align: center;
+  font-size: 56px;
+  color: #fff;
+  padding: 24px;
+}
+.menu {
+  width: 400px;/* 紙の横幅 100%にすると全幅表示に */
+  padding: 15px;
+  margin: 2em auto;
+  background: #f7f092;/* 紙の色 */
+  color: #000;/* 文字色 */
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.03);transform:rotate(2deg);
+  word-break: break-all;
+}
+.menu p {
+   margin: 0; 
+   padding: 0;
+   font-size: 0.9em;
+}
+.tape {
+   width: 50%;
+   height: 35px;
+   margin: -25px auto 0;
+   background: #989898;
+   transform: rotate(-3deg);
+   opacity: 0.1;
+}
+.M-title {
+   text-align: center;
+   font-size: 1.3em!important;
+   margin-top: 10px!important;
+}
+.s-title {
+   text-align: center;
+   font-size: 0.7em!important;
+   margin-bottom: 1em!important;
+}
+.m-m{
+  display: flex;
+  margin-top: 48px;
+  
+}
+.s-m img {
+  width: 99%;
+  height: 320px;
+  object-fit: cover;
+
+}
+.s-m {
+  height: 480px;
+  width: 400px;
+  padding: 3%;
+  margin: 2%;
+  border: inset 10px burlywood;
+  flex: 1;
+  
+
+}
+
+.m1{
+  background-image: url(75539_0.jpg);
+}
+.m2{
+  background-image: url(75538_0.jpg);
+}
+.m3{
+  background-image: url(75537_0.jpg);
+}
